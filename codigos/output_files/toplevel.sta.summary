@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'freqdiv:i0|clkout_aux'
+Slack : -0.280
+TNS   : -0.809
+
+Type  : Slow Model Setup 'contador:i1|fim'
+Slack : -0.206
+TNS   : -0.359
+
+Type  : Slow Model Setup 'clk'
+Slack : -0.072
+TNS   : -0.244
+
+Type  : Slow Model Setup 'freqdiv:i0|contador:count0|fim'
+Slack : 0.962
+TNS   : 0.000
+
+Type  : Slow Model Hold 'freqdiv:i0|contador:count0|fim'
+Slack : -0.692
+TNS   : -0.692
+
+Type  : Slow Model Hold 'clk'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'contador:i1|fim'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'freqdiv:i0|clkout_aux'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -6.380
+
+Type  : Slow Model Minimum Pulse Width 'freqdiv:i0|clkout_aux'
+Slack : -0.500
+TNS   : -5.000
+
+Type  : Slow Model Minimum Pulse Width 'contador:i1|fim'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'freqdiv:i0|contador:count0|fim'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Setup 'freqdiv:i0|clkout_aux'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Fast Model Setup 'contador:i1|fim'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Fast Model Setup 'clk'
+Slack : 0.502
+TNS   : 0.000
+
+Type  : Fast Model Setup 'freqdiv:i0|contador:count0|fim'
+Slack : 0.780
+TNS   : 0.000
+
+Type  : Fast Model Hold 'freqdiv:i0|contador:count0|fim'
+Slack : -0.400
+TNS   : -0.400
+
+Type  : Fast Model Hold 'clk'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'contador:i1|fim'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'freqdiv:i0|clkout_aux'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -6.380
+
+Type  : Fast Model Minimum Pulse Width 'freqdiv:i0|clkout_aux'
+Slack : -0.500
+TNS   : -5.000
+
+Type  : Fast Model Minimum Pulse Width 'contador:i1|fim'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'freqdiv:i0|contador:count0|fim'
+Slack : -0.500
+TNS   : -1.000
+
+------------------------------------------------------------

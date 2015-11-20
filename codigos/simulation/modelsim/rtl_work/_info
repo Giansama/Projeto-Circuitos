@@ -1,0 +1,114 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/gcavalcante/Git/Projeto-Circuitos/codigos/simulation/modelsim
+Econtador
+Z1 w1448027991
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 d/home/gcavalcante/Git/Projeto-Circuitos/codigos/simulation/modelsim
+Z6 8/home/gcavalcante/Git/Projeto-Circuitos/codigos/contador.vhd
+Z7 F/home/gcavalcante/Git/Projeto-Circuitos/codigos/contador.vhd
+l0
+L5
+VnSER`XkYLc81I0;8jfQiK3
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1448028173.069141
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/gcavalcante/Git/Projeto-Circuitos/codigos/contador.vhd|
+Z11 !s107 /home/gcavalcante/Git/Projeto-Circuitos/codigos/contador.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 aZLBY0n?h1gjob2n43>^T0
+!i10b 1
+Abehav
+R2
+R3
+R4
+DEx4 work 8 contador 0 22 nSER`XkYLc81I0;8jfQiK3
+l17
+L15
+V<6Li90kDETMfeDaXMk6c92
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 e6QOZK:`M[VS26SnLnQHM0
+!i10b 1
+Ecronometro
+Z14 w1448028114
+R2
+R3
+R4
+R5
+Z15 8/home/gcavalcante/Git/Projeto-Circuitos/codigos/cronometro.vhd
+Z16 F/home/gcavalcante/Git/Projeto-Circuitos/codigos/cronometro.vhd
+l0
+L5
+VGXVl47=@LaEZ:P``<VNXQ1
+R8
+31
+Z17 !s108 1448028172.773200
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/gcavalcante/Git/Projeto-Circuitos/codigos/cronometro.vhd|
+Z19 !s107 /home/gcavalcante/Git/Projeto-Circuitos/codigos/cronometro.vhd|
+R12
+R13
+!s100 44?Jc^K6P3hnNJJj0H[[=2
+!i10b 1
+Abehav
+R2
+R3
+R4
+DEx4 work 10 cronometro 0 22 GXVl47=@LaEZ:P``<VNXQ1
+l32
+L13
+VjG_AicfDOmo`6?6AhI<6A1
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 fFK]P7@NWfJemNmf^<n<n0
+!i10b 1
+Efreqdiv
+Z20 w1448028039
+R3
+R4
+R5
+Z21 8/home/gcavalcante/Git/Projeto-Circuitos/codigos/freqdiv.vhd
+Z22 F/home/gcavalcante/Git/Projeto-Circuitos/codigos/freqdiv.vhd
+l0
+L4
+VY`X_gn@SGUkCdOemojJ9K2
+!s100 cFehOXj8K?zhQ<>P?[4ji1
+R8
+31
+!i10b 1
+Z23 !s108 1448028173.105147
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/gcavalcante/Git/Projeto-Circuitos/codigos/freqdiv.vhd|
+Z25 !s107 /home/gcavalcante/Git/Projeto-Circuitos/codigos/freqdiv.vhd|
+R12
+R13
+Abehav
+R3
+R4
+DEx4 work 7 freqdiv 0 22 Y`X_gn@SGUkCdOemojJ9K2
+l22
+L11
+VS2;Sh[R72jWLA9gE8PlX^0
+!s100 L5TTM1BM[Fe0V=>^[m[jf0
+R8
+31
+!i10b 1
+R23
+R24
+R25
+R12
+R13

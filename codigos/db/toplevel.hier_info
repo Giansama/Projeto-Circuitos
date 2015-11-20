@@ -1,0 +1,88 @@
+|cronometro
+rst => freqdiv:i0.rst
+rst => contador:i1.rst
+rst => contador:i2.rst
+clk => freqdiv:i0.clkin
+sec[0] <= contador:i1.saida[0]
+sec[1] <= contador:i1.saida[1]
+sec[2] <= contador:i1.saida[2]
+sec[3] <= contador:i1.saida[3]
+min[0] <= contador:i2.saida[0]
+min[1] <= contador:i2.saida[1]
+min[2] <= contador:i2.saida[2]
+min[3] <= contador:i2.saida[3]
+
+
+|cronometro|freqdiv:i0
+clkin => contador:count0.clk
+rst => contador:count0.rst
+rst => clkout_aux.ACLR
+clkout <= clkout_aux.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cronometro|freqdiv:i0|contador:count0
+rst => fim~reg0.ACLR
+rst => temp[0].ACLR
+rst => temp[1].ACLR
+rst => temp[2].ACLR
+rst => temp[3].ACLR
+clk => fim~reg0.CLK
+clk => temp[0].CLK
+clk => temp[1].CLK
+clk => temp[2].CLK
+clk => temp[3].CLK
+limite[0] => Equal0.IN3
+limite[1] => Equal0.IN2
+limite[2] => Equal0.IN1
+limite[3] => Equal0.IN0
+fim <= fim~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saida[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+saida[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cronometro|contador:i1
+rst => fim~reg0.ACLR
+rst => temp[0].ACLR
+rst => temp[1].ACLR
+rst => temp[2].ACLR
+rst => temp[3].ACLR
+clk => fim~reg0.CLK
+clk => temp[0].CLK
+clk => temp[1].CLK
+clk => temp[2].CLK
+clk => temp[3].CLK
+limite[0] => Equal0.IN3
+limite[1] => Equal0.IN2
+limite[2] => Equal0.IN1
+limite[3] => Equal0.IN0
+fim <= fim~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saida[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+saida[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cronometro|contador:i2
+rst => fim~reg0.ACLR
+rst => temp[0].ACLR
+rst => temp[1].ACLR
+rst => temp[2].ACLR
+rst => temp[3].ACLR
+clk => fim~reg0.CLK
+clk => temp[0].CLK
+clk => temp[1].CLK
+clk => temp[2].CLK
+clk => temp[3].CLK
+limite[0] => Equal0.IN3
+limite[1] => Equal0.IN2
+limite[2] => Equal0.IN1
+limite[3] => Equal0.IN0
+fim <= fim~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saida[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+saida[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
