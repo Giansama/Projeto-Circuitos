@@ -1,0 +1,170 @@
+\documentclass[10pt]{beamer}
+\usetheme[
+%%% options passed to the outer theme
+%    hidetitle,           % hide the (short) title in the sidebar
+%    hideauthor,          % hide the (short) author in the sidebar
+%    hideinstitute,       % hide the (short) institute in the bottom of the sidebar
+%    shownavsym,          % show the navigation symbols
+%    width=2cm,           % width of the sidebar (default is 2 cm)
+%    hideothersubsections,% hide all subsections but the subsections in the current section
+%    hideallsubsections,  % hide all subsections
+%    left                % right of left position of sidebar (default is right)
+  ]{Aalborg}
+  
+% If you want to change the colors of the various elements in the theme, edit and uncomment the following lines
+% Change the bar and sidebar colors:
+%\setbeamercolor{Aalborg}{fg=red!20,bg=red}
+%\setbeamercolor{sidebar}{bg=red!20}
+% Change the color of the structural elements:
+%\setbeamercolor{structure}{fg=red}
+% Change the frame title text color:
+%\setbeamercolor{frametitle}{fg=blue}
+% Change the normal text color background:
+%\setbeamercolor{normal text}{bg=gray!10}
+% ... and you can of course change a lot more - see the beamer user manual.
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazillian]{babel}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+\usepackage{helvet}
+
+
+% colored hyperlinks
+\newcommand{\chref}[2]{%
+  \href{#1}{{\usebeamercolor[bg]{Aalborg}#2}}%
+}
+
+\title[Jogo da Velocidade]% optional, use only with long paper titles
+{Projeto de Circuitos Digitais}
+
+\subtitle{Jogo da Velocidade}  % could also be a conference name
+
+\date{\today}
+
+\author[Unidade III] % optional, use only with lots of authors
+{
+  Gian Lucas Cavalcante de Lima \\
+  \and 
+  Leandro Augusto Barbosa \\
+  \and 
+  Rafael de Medeiros Mariz Capuano \\
+  \and 
+  Thiago de Oliveira Nunes Galeno \\
+  \and 
+  Tiago Aleixo de Araújo \\
+  \and 
+  Wysterlanya Kyury Pereira Barros
+}
+% - Give the names in the same order as they appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation. See the beamer manual for an example
+
+\institute[
+%  {\includegraphics[scale=0.2]{aau_segl}}\\ %insert a company, department or university logo
+  Dept.\ de Engenharia de Computação e Automação\\
+  UFRN
+] % optional - is placed in the bottom of the sidebar on every slide
+{% is placed on the bottom of the title page
+  Departamento de Engenharia de Computação e Automação\\
+  Universidade Federal do Rio Grande do Norte
+  
+  %there must be an empty line above this line - otherwise some unwanted space is added between the university and the country (I do not know why;( )
+}
+
+% specify the logo in the top right/left of the slide
+\pgfdeclareimage[height=0.7cm]{mainlogo}{AAUgraphics/dca} % placed in the upper left/right corner
+\logo{\pgfuseimage{mainlogo}}
+
+% specify a logo on the titlepage (you can specify additional logos an include them in 
+% institute command below
+\pgfdeclareimage[height=1.6cm]{titlepagelogo}{AAUgraphics/brasaoufrn} % placed on the title page
+%\pgfdeclareimage[height=1.5cm]{titlepagelogo2}{AAUgraphics/aau_logo_new} % placed on the title page
+\titlegraphic{% is placed on the bottom of the title page
+  \pgfuseimage{titlepagelogo}
+%  \hspace{1cm}\pgfuseimage{titlepagelogo2}
+}
+
+\begin{document}
+% the titlepage
+{\aauwavesbg
+\begin{frame}[plain,noframenumbering] % the plain option removes the sidebar and header from the title page
+  \titlepage
+\end{frame}}
+%%%%%%%%%%%%%%%%
+
+% TOC
+\begin{frame}{Sumário}{}
+\tableofcontents
+\end{frame}
+%%%%%%%%%%%%%%%%
+
+\section{Introdução}
+\begin{frame}{Introdução}{}
+\begin{block}{O que é o projeto?}
+  \begin{itemize}
+    \item<1-> O projeto é um trabalho em grupo aonde será desenvolvido um jogo para dois jogadores escrito em VHDL com a finalidade de por em prática todo o conteúdo aprendido durante o semestre, praticar trabalho em grupo e avaliar os resultados do trabalho.
+  \end{itemize}
+\end{block}
+\end{frame}
+%%%%%%%%%%%%%%%%
+
+\subsection{Objetivo}
+% the license
+\begin{frame}{Introdução}{Objetivo}
+  \begin{itemize}
+    \item<1-> O objetivo do jogo é ser um jogo de memória e reflexos aonde o primeiro jogador entra com uma sequência de 5 digitos em 3 botões e o segundo jogador deve repetir a sequência corretamente no menor tempo possível.
+  \end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%
+
+\subsection{O jogo}
+\begin{frame}{Introdução}{O jogo}
+  \begin{itemize}
+    \item<1-> O objetivo do jogo é ser um jogo de memória e reflexos aonde o primeiro jogador entra com uma sequência de 5 digitos em 3 botões e o segundo jogador deve repetir a sequência corretamente no menor tempo possível.
+  \end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%
+
+\section{Desenvolvimento}
+% general installation instructions
+\begin{frame}{Desenvolvimento}
+  "Explicar como foi feito o trabalho e demais informações do desenvolvimento."
+\end{frame}
+
+\begin{frame}{Desenvolvimento}{Máquina de estados de alto nível}
+  "imagem da maquina de estados aqui."
+\end{frame}
+
+\section{Funcionamento}
+% general installation instructions
+\begin{frame}{Funcionamento}
+  "Explicar como funciona o programa, e como cada parte dele funciona e com que objetivo ele faz tal tarefa."
+\end{frame}
+
+
+\section{Considerações finais}
+\subsection{Informações dos componentes}
+% contact information
+\begin{frame}{Finalizações}{Informações dos componentes}
+
+\begin{tabular}{lr}
+  Gian Lucas Cavalcante de Lima & 2012919250\\
+  Leandro Augusto Barbosa & 2010038622 \\
+  Rafael de Medeiros Mariz Capuano & 2012921679 \\
+  Thiago de Oliveira Nunes Galeno & 2011011884  \\
+  Tiago Aleixo de Araújo & 2013023516  \\
+  Wysterlanya Kyury Pereira Barros & 2014028947  \\
+\end{tabular}
+
+\end{frame}
+%%%%%%%%%%%%%%%%
+
+{\aauwavesbg%
+\begin{frame}[plain,noframenumbering]%
+  \finalpage{Agora vamos por o jogo em ação!}
+\end{frame}}
+%%%%%%%%%%%%%%%%
+
+\end{document}
