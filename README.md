@@ -3,7 +3,7 @@
 
 > Nesse projeto será criado um jogo para dois jogadores de memória e reflexos utilizando FPGA.
 
-alt
+2alt
 
 Entradas:
 * **clk** (relógio)
