@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {portuguese}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Objetivo}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{O jogo}{5}{0}{1}
+\beamer@sectionintoc {2}{Desenvolvimento}{6}{0}{2}
+\beamer@sectionintoc {3}{Funcionamento}{8}{0}{3}
+\beamer@sectionintoc {4}{Considera\IeC {\c c}\IeC {\~o}es finais}{9}{0}{4}
+\beamer@subsectionintoc {4}{1}{Informa\IeC {\c c}\IeC {\~o}es dos componentes}{9}{0}{4}
